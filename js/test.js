@@ -124,7 +124,7 @@ function loadCubo(lado)
   }
 
   // Configura un material
-  var textura = new THREE.ImageUtils.loadTexture( 'images/ilovecg.png' );
+  var textura = new THREE.TextureLoader().load( 'images/ilovecg.png' );
   var material = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors, map: textura, side: THREE.DoubleSide } );
 
   // Construye el objeto grafico 
