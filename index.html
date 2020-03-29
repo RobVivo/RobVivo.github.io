@@ -1,31 +1,31 @@
 <!doctype html>
-<!-- Seminarios AGM. Pagina de carga de THREEjs -->
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Aplicacion de THREEjs</title>
-<!-- Estilo sin margenes ni scroll -->
-<style>
-	body{
-		background-color: #000;
-		margin: 0px;
-		overflow: hidden;
-	}
-</style>
-</head>
+<!-- 
+  Ejemplos sobre Three.js : Cubo texturado animado
+   	Cubo con color por vertice y mapa uv sobre textura en cruz;
+   	Util para comprobar si funciona Threejs sobre el navegador.
+  rvivo@upv.es 2015
+-->
+<html lang="es">
+	<head>
+		<meta charset='utf-8'>
+		<title>Threejs App</title>
+		<style>
+			body {
+				background-color: #000;
+				margin: 0px;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Contenedor del app -->
+		<div id="container"></div>
 
-<body>
-	APLICACIION THREEjs
-	<!-- Contenedor para mi canvas -->
-	<!-- <div id='container'></div>
+		<!-- Scripts de biblioteca -->
+		<script src="lib/three.min_r96.js"></script>
+		<script src="lib/OrbitControls.js"></script>
 
-	<!-- Carga de bibliotecas -->
-	<!-- <script src='lib/three.min_r96.js'></script>
-	<!-- <script src='lib/OrbitControls.js'></script>
-	<!-- <script src='lib/Tween_2018.js'></script>
-	<!-- <script src="lib/dat.gui.min.js"></script>
+		<script src="js/test.js"></script>
 
-	<!-- Mi script -->
-	<!-- <script src='threejs/grafo2020.js'></script>
-</body>
+	</body>
 </html>
