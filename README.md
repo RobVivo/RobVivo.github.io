@@ -1,8 +1,5 @@
-# RobVivo.github.io
-### WebGl/Threejs basic material
-Clone this project on your own server to start working on 3d web content  
-```shell
-$ cd server_pages_directory
-$ git clone -b master https://www.github.com/RobVivo/RobVivo.github.io WebGL
-```
-*Three.js revision: r96*
+## Uso y alcance de este proyecto
+**Este proyecto tiene fines exclusivamente docentes**   
+El proyecto incluye material extraído del proyecto público [Three.js](http://threjs.org) *r96*, bibliotecas de utilidad del texto *"WebGL Programming Guide" de  Kouichi Matsuda y Rodger Lea* y código propio de *<rvivo@upv.es>*.  
+
+Para más información sobre su uso y alcance consultar la [wiki](https://github.com/RobVivo/RobVivo.github.io/wiki/INSTRUCCIONES-B%C3%81SICAS)

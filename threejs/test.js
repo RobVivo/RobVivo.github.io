@@ -1,5 +1,7 @@
-/*
-Threejs ejemplos: Cubo RGB con textura
+/**
+  @file  test.js
+  @brief Ejemplo Three.js: Cubo RGB con textura
+
   Cubo con color por vertice y mapa de uvs usando la clase Geometry.
   La textura es una unica imagen en forma de cubo desplegado en cruz horizontal.
   Cada cara se textura segun mapa uv en la textura.
@@ -11,7 +13,7 @@ Threejs ejemplos: Cubo RGB con textura
     Arriba:    4,3,2,5
     Abajo:     7,6,1,0 
 
-rvivo@upv.es 2015
+  @author rvivo@upv.es
 */
 
 var renderer, scene, camera, cubo;
@@ -124,7 +126,7 @@ function loadCubo(lado)
   }
 
   // Configura un material
-  var textura = new THREE.TextureLoader().load( 'images/ilovecg.png' );
+  var textura = new THREE.ImageUtils.loadTexture( 'images/ilovecg.png' );
   var material = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors, map: textura, side: THREE.DoubleSide } );
 
   // Construye el objeto grafico 
