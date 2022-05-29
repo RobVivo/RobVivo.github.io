@@ -12,7 +12,7 @@
     Izquierda: 6,7,4,5
     Arriba:    3,2,5,4
     Abajo:     0,7,6,1
-  Donde se han numerado de 0..7 los ertices del cubo.
+  Donde se han numerado de 0..7 los vertices del cubo.
   Los atributos deben darse por vertice asi que necesitamos 8x3=24 vertices pues
   cada vertice tiene 3 atributos de normal, color y uv al ser compartido por 3 caras. 
 
@@ -101,7 +101,7 @@ function loadCubo(lado)
                 0,1,1,   // 5
                 1,1,1,   // 2
 
-                1,1,0,   // 3
+                0,0,1,   // 6
                 0,0,0,   // 7
                 0,1,0,   // 4
                 0,1,1,   // 5
