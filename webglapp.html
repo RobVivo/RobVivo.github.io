@@ -1,0 +1,25 @@
+<!doctype html>
+<!--
+    Seminario 1: Webgl 
+    Plantilla de carga de paginas en webgl
+-->
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Aplicacion en Webgl</title>
+        <style>
+            body{ background-color: white;margin: 0px;overflow: hidden;}
+            canvas{ background-color: white;}
+        </style>
+    </head>
+    <body onload="main()">
+        <canvas id="canvas" width="400" height="300"></canvas>
+        <!-- scripts de libreria -->
+        <script src="lib/webgl-utils.js"></script>
+        <script src="lib/webgl-debug.js"></script>
+        <script src="lib/cuon-matrix.js"></script>
+        <script src="lib/cuon-utils.js"></script>
+        <!-- mis scripts -->
+        <script src="js/miscript.js"></script>
+    </body>
+</html>
